@@ -1,0 +1,92 @@
+html { height: 100%; }
+body { height: 100%; }
+
+
+/* wrapper */
+
+#page-wrapper {
+	position: relative;
+	height: auto !important; min-height: 100%;
+	_height: 100%; /* IE 4-6 fix */
+	overflow: hidden; /* to keep particles from flying off the page */
+	margin: 0 auto;
+}
+
+
+/* background */
+
+#page-background { z-index: -1; }
+#page-background,
+#page-background * {
+	position: absolute;
+	height: auto; top: 0; bottom: 0;
+	width: auto; left: 0; right: 0;
+}
+#page-background .texture { z-index: 1; }
+
+
+/* base */
+
+#page-base {
+	position: relative;
+}
+
+/* PIE clearfix */
+#page-base { display: inline-block; }
+#page-base:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+#page-base { display: block; }
+
+
+/* content */
+
+#page-content {
+	margin-left: auto; margin-right: auto; width: 960px;
+	margin-top: 40px;
+}
+
+/* PIE clearfix */
+#page-content { display: inline-block; }
+#page-content:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+#page-content { display: block; }
+
+
+/* footer */
+
+#page-footer {
+	position: absolute;
+	bottom: 0; left: 0; right: 0;
+	height: 60px;
+}
+
+#page-footer img {
+	vertical-align: middle;
+}
+
+/* clearfix */
+#page-footer { overflow: hidden; display: inline-block; }
+#page-footer { display: block; }
+
+#page-footer > .back { z-index: -1; }
+#page-footer > .back,
+#page-footer > .back * {
+	position: absolute;
+	height: auto; top: 0; bottom: 0;
+	width: auto; left: 0; right: 0;
+}
+#page-footer > .back .texture { z-index: 1; }
+#page-footer > .back .effects { z-index: 2; }
+#page-footer > .back .fringe { z-index: 3; }
+
+#page-footer > .back > .oversized { overflow: hidden; }
+#page-footer > .back > .oversized > .effects { left: -32px; right: -32px; }
+
+#page-footer > .back .fringe.t { top: 0; bottom: auto; }
+
+#page-footer > .cont {
+	margin-left: auto; margin-right: auto; width: 960px;
+	padding: 20px 0;
+}
+#page-footer > .cont > p {
+	display: inline; float: left; position: relative;
+	margin-left: 10px; margin-right: 10px; width: 940px;
+}

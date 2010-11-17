@@ -1,0 +1,53 @@
+body { background-color: #f4f4f3; }
+#page-background {
+	background-color: #f4f4f3;
+	background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(0%, #cccac6), color-stop(25%, #f4f4f3), color-stop(50%, #ffffff), color-stop(75%, #f4f4f3), color-stop(100%, #cccac6));
+	background-image: -moz-linear-gradient(left, #cccac6 0%, #f4f4f3 25%, #ffffff 50%, #f4f4f3 75%, #cccac6 100%);
+}
+#page-background .texture {
+	background: url("images/back.texture.s512.png");
+}
+
+
+#page-content { color: #123; }
+#page-content a { color: #282; }
+
+#page-footer > .back {
+	background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(0%, #000000), color-stop(25%, #040506), color-stop(50%, #050607), color-stop(75%, #040506), color-stop(100%, #000000));
+	background-image: -moz-linear-gradient(left, #000000 0%, #040506 25%, #050607 50%, #040506 75%, #000000 100%);
+	background-color: #040506;
+}
+#page-footer > .back .texture {
+	background: url("images/back.texture.s512.png");
+}
+#page-footer > .back > .oversized .effects {
+	-moz-box-shadow: inset black 0 6px 32px;
+	-webkit-box-shadow: inset black 0 6px 32px;
+	-o-box-shadow: inset black 0 6px 32px;
+	box-shadow: inset black 0 6px 32px;
+}
+#page-footer > .back .fringe.t {
+	height: 10px;
+	background: none repeat-x;
+	top: -4px;
+	background-image: url("images/back.fringe.bottom.light.h10.png");
+}
+#page-footer > .cont {
+	color: #666;
+	font-weight: bold;
+	text-shadow: #000 0px 1px 1px;
+}
+#page-footer > .cont a { color: #888; }
+
+
+h1, h2, h3, h4, h5, h6 {
+	font: 0/1 Helvetica, Arial, sans-serif;
+	text-shadow: #fff 0px 1px 1px;
+}
+
+h1 { font-size: 48px; }
+h2 { font-size: 30px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
