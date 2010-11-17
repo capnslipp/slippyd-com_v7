@@ -15,7 +15,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	/* reset font */ font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;
 }
 body {
-	/* reset body */ line-height: 1; color: black; background: white;
+	/* reset body */ line-height: 1; color: #000; background: #fff;
 }
 ol, ul {
 	/* reset list style */ list-style: none;
