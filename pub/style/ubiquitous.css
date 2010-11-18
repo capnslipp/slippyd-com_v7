@@ -21,10 +21,10 @@ body { background-color: #050607; }
 	);
 }
 #page-background > .effects {
-	-moz-box-shadow: inset black 0 6px 32px;
-	-webkit-box-shadow: inset black 0 6px 32px;
-	-o-box-shadow: inset black 0 6px 32px;
-	box-shadow: inset black 0 6px 32px;
+	-moz-box-shadow: inset rgba(0,0,0,1.0) 0px 6px 32px;
+	-webkit-box-shadow: inset rgba(0,0,0,1.0) 0px 6px 32px;
+	-o-box-shadow: inset rgba(0,0,0,1.0) 0px 6px 32px;
+	box-shadow: inset rgba(0,0,0,1.0) 0px 6px 32px;
 }
 #page-background > .texture {
 	background: url("images/back.texture.s512.png");
@@ -35,7 +35,7 @@ body { background-color: #050607; }
 #page-content * {
 	color: #666;
 	font-weight: bold;
-	text-shadow: #000 0px 1px 1px;
+	text-shadow: rgba(0,0,0,1.0) 0px 2px 3px;
 }
 #page-content a,
 #page-content * a { color: #888; }
@@ -48,7 +48,7 @@ body { background-color: #050607; }
 
 h1, h2, h3, h4, h5, h6 {
 	font: 0/1 Helvetica, Arial, sans-serif;
-	text-shadow: #fff 0px 1px 1px;
+	text-shadow: rgba(0,0,0,1.0) 0px 3px 5px;
 }
 
 h1 { font-size: 48px; }
