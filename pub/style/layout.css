@@ -40,7 +40,7 @@ body { height: 100%; }
 
 #page-content {
 	margin-left: 0; margin-right: auto;
-	width: 960px;
+	/*width: 960px;*/
 	padding: 20px 20px 20px;
 }
 
@@ -83,10 +83,10 @@ body { height: 100%; }
 #page-footer > .back .fringe.t { top: 0; bottom: auto; }
 
 #page-footer > .cont {
-	margin-left: auto; margin-right: auto; width: 960px;
+	margin-left: auto; margin-right: auto; /*width: 960px;*/
 	padding: 20px 0;
 }
 #page-footer > .cont > p {
 	display: inline; float: left; position: relative;
-	margin-left: 10px; margin-right: 10px; width: 940px;
+	margin-left: 10px; margin-right: 10px; /*width: 940px;*/
 }
