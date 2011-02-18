@@ -10,30 +10,42 @@ em { font-style: italic; }
 
 p.sigline {}
 
+#logo {
+	max-width: 100%;
+	height: auto;
+}
 
-p.band {
+
+.band {
 	position: relative;
 	overflow: hidden;
+	width: 100%;
+	margin: -20px 0 -100px;
+	padding: 20px 0 100px;
 }
 
-p.band,
-p.band > .cont {
-	height: 1.5em;
-	line-height: 1.5em;
+.band,
+.band > .cont {
+	line-height: 1.0em;
 }
 
-p.band > .cont {
+.band > .cont {
 	position: absolute;
 	
 	background: rgba(0,0,0,0.85);
 	border: 1px rgba(0,0,0,0.3) none;
 	border-style: solid none;
 	
-	-webkit-box-shadow: rgba(0,0,0,0.7) 0px 0px 4px;
-	   -moz-box-shadow: rgba(0,0,0,0.7) 0px 0px 4px;
-	     -o-box-shadow: rgba(0,0,0,0.7) 0px 0px 4px;
-	        box-shadow: rgba(0,0,0,0.7) 0px 0px 4px;
+	-webkit-box-shadow: rgba(0,0,0,0.9) 0px 2px 5px;
+	   -moz-box-shadow: rgba(0,0,0,0.9) 0px 2px 5px;
+	     -o-box-shadow: rgba(0,0,0,0.9) 0px 2px 5px;
+	        box-shadow: rgba(0,0,0,0.9) 0px 2px 5px;
+	
+	padding: 4px 12px;
 	
 	/*margin: 0 -20px; padding: 0 20px;*/
-	left: -32px; right: -32px;
+	left: -8px; right: -8px;
 }
+
+
+.chunk { white-space: nowrap; }

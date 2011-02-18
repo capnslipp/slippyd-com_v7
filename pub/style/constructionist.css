@@ -3,18 +3,18 @@ body { background-color: #050607; }
 	background-color: #fc3;
 }
 #page-background > .effects {
-	-moz-box-shadow: inset rgba(0,0,0,1.0) 0px 6px 32px;
-	-webkit-box-shadow: inset rgba(0,0,0,1.0) 0px 6px 32px;
-	-o-box-shadow: inset rgba(0,0,0,1.0) 0px 6px 32px;
-	box-shadow: inset rgba(0,0,0,1.0) 0px 6px 32px;
+	-webkit-box-shadow: inset rgba(0,0,0,0.7) 0px 3px 16px;
+	   -moz-box-shadow: inset rgba(0,0,0,0.7) 0px 3px 16px;
+	     -o-box-shadow: inset rgba(0,0,0,0.7) 0px 3px 16px;
+	        box-shadow: inset rgba(0,0,0,0.7) 0px 3px 16px;
 }
 #page-background > .texture {
 	background: url('images/back.texture.s512.png');
 }
-#page-background > .stripes > .layer { background: url('images/patch.striped.45deg-8l-8g.s16.png'); }
-#page-background > .stripes > .r.layer { opacity: 0.30; z-index: 1; }
-#page-background > .stripes > .g.layer { opacity: 0.59; z-index: 2; }
-#page-background > .stripes > .b.layer { opacity: 0.11; z-index: 3; }
+#page-background > .stripes > .layer {
+	background: url('images/patch.striped.45deg-8l-8g.s16.png');
+	opacity: 0.9;
+}
 
 
 #page-content,
