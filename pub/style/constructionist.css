@@ -32,8 +32,8 @@ body { background-color: #050607; }
 
 #page-content strong,
 #page-content strong a {
-	font-family: 'Arial Black', sans-serif;
-	font-weight: bolder;
+	font-family: 'Orbitron', 'Arial Black', sans-serif;
+	font-weight: 900;
 	text-transform: uppercase;
 }
 

@@ -36,6 +36,8 @@ p.sigline {}
 	border: 1px rgba(0,0,0,0.3) none;
 	border-style: solid none;
 	
+	font-size: 16px;
+	
 	-webkit-box-shadow: rgba(0,0,0,0.9) 0px 2px 5px;
 	   -moz-box-shadow: rgba(0,0,0,0.9) 0px 2px 5px;
 	     -o-box-shadow: rgba(0,0,0,0.9) 0px 2px 5px;
