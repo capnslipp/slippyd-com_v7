@@ -2,19 +2,23 @@ body { background-color: #050607; }
 #page-background {
 	background-color: #fc3;
 }
-#page-background > .effects {
-	-moz-box-shadow: inset rgba(0,0,0,1.0) 0px 6px 32px;
-	-webkit-box-shadow: inset rgba(0,0,0,1.0) 0px 6px 32px;
-	-o-box-shadow: inset rgba(0,0,0,1.0) 0px 6px 32px;
-	box-shadow: inset rgba(0,0,0,1.0) 0px 6px 32px;
-}
+#page-background > .effects > * { border: 0 rgba(0,0,0,0.2) solid; }
+#page-background > .effects > .layer1 { border-width: 3px 0 0; }
+#page-background > .effects > .layer2 { border-width: 6px 0 0; }
+#page-background > .effects > .layer3 { border-width: 9px 3px 0; }
 #page-background > .texture {
 	background: url('images/back.texture.s512.png');
 }
-#page-background > .stripes > .layer { background: url('images/patch.striped.45deg-8l-8g.s16.png'); }
-#page-background > .stripes > .r.layer { opacity: 0.30; z-index: 1; }
-#page-background > .stripes > .g.layer { opacity: 0.59; z-index: 2; }
-#page-background > .stripes > .b.layer { opacity: 0.11; z-index: 3; }
+#page-background > .stripes > .layer {
+	background: url('images/patch.striped.45deg-8l-8g.s16.png');
+	opacity: 0.9;
+}
+#page-background > .stripes > .layer {
+	-webkit-transition: background-position 32s linear;
+	   -moz-transition: background-position 32s linear;
+	     -o-transition: background-position 32s linear;
+	        transition: background-position 32s linear;
+}
 
 
 #page-content,
@@ -32,8 +36,8 @@ body { background-color: #050607; }
 
 #page-content strong,
 #page-content strong a {
-	font-family: 'Arial Black', sans-serif;
-	font-weight: bolder;
+	font-family: 'Orbitron', 'Arial Black', sans-serif;
+	font-weight: 900;
 	text-transform: uppercase;
 }
 
