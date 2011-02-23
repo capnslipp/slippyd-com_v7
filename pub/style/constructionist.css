@@ -13,11 +13,28 @@ body { background-color: #331107; }
 	background: url('images/patch.striped.45deg-8l-8g.s16.png');
 	opacity: 0.9;
 }
+
+@-webkit-keyframes shifting-stripes {
+	from { background-position-y: 0px; }
+	to { background-position-y: 16px; }
+}
+   @-moz-keyframes shifting-stripes {
+	from { background-position-y: 0px; }
+	to { background-position-y: 16px; }
+}
+     @-o-keyframes shifting-stripes {
+	from { background-position-y: 0px; }
+	to { background-position-y: 16px; }
+}
+        @keyframes shifting-stripes {
+	from { background-position-y: 0px; }
+	to { background-position-y: 16px; }
+}
 #page-background > .stripes > .layer {
-	-webkit-transition: background-position 32s linear;
-	   -moz-transition: background-position 32s linear;
-	     -o-transition: background-position 32s linear;
-	        transition: background-position 32s linear;
+	-webkit-animation: shifting-stripes 1s linear infinite;
+	   -moz-animation: shifting-stripes 1s linear infinite;
+	     -o-animation: shifting-stripes 1s linear infinite;
+	        animation: shifting-stripes 1s linear infinite;
 }
 
 
