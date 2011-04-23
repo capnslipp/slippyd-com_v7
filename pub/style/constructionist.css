@@ -1,6 +1,6 @@
 body { background-color: #331107; }
 #page-background {
-	background-color: #ff5522;
+	background-color: #515559;
 }
 #page-background > .effects > * { border: 0 rgba(0,0,0,0.2) solid; }
 #page-background > .effects > .layer1 { border-width: 3px 0 0; }
@@ -11,7 +11,7 @@ body { background-color: #331107; }
 }
 #page-background > .stripes > .layer {
 	background: url('images/patch.striped.45deg-8l-8g.s16.png');
-	opacity: 0.9;
+	opacity: 0.25;
 }
 #page-background > .stripes > .layer {
 	-webkit-transition: background-position 32s linear;
