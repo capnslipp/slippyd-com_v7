@@ -1,7 +1,6 @@
-body { background-color: #331107; }
-#page-background {
-	background-color: #515559;
-}
+body { background-color: #111111; }
+#page-background { background-color: #222222; }
+
 #page-background > .effects > * { border: 0 rgba(0,0,0,0.2) solid; }
 #page-background > .effects > .layer1 { border-width: 3px 0 0; }
 #page-background > .effects > .layer2 { border-width: 6px 0 0; }
