@@ -47,7 +47,11 @@ p.sigline {}
 	
 	/*margin: 0 -20px; padding: 0 20px;*/
 	left: -8px; right: -8px;
+	
+	cursor: default;
 }
 
 
 .chunk { white-space: nowrap; }
+
+a.obscured { text-decoration: none; cursor: default; }

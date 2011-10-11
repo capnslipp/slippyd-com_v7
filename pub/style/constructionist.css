@@ -29,6 +29,9 @@ body { background-color: #111111; }
 #page-content a,
 #page-content * a { color: #888; }
 
+#page-content a.obscured,
+#page-content * a.obscured { color: #fff; }
+
 #page-content em,
 #page-content em a {
 }
